@@ -1,0 +1,34 @@
+*{
+    margin: 30;
+    background: rgb(227, 158, 158);
+}
+
+
+h1{
+    color: greenyellow;
+}
+p{
+    color: blueviolet;
+}
+
+.hello{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVW6tRa_qW83fppIYIFced0ZU96MQixbuoag8FH9umQQ&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   
+}
+ul{
+    margin-top: 300px;
+}
+ul li{
+    color: red;
+    display: inline;
+    
+}
+span{
+   height: 20px;
+   width: 20px;
+   color: aqua; 
+   display: block;
+}
