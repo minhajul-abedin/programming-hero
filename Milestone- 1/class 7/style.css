@@ -1,0 +1,24 @@
+.text{
+    width: 400px;
+    height: 500px;
+    border: 10px solid greenyellow;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.lo-p{
+    width: 400px;
+    height: 500px;
+    border: 10px solid rgb(255, 0, 153);
+    overflow: scroll ;
+
+}
+.longer-p{
+    
+}
+h2{
+    width: 100px;
+    white-space: nowrap;
+    border: 2px solid indianred;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
