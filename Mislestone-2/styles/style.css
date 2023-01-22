@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  width: 1920px;
+  margin: 0 autoa;
+}
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 45px;
+    
+
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px 0 80px;
+  padding: 50px 0;
+}
+.logo .logo-text {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+.nav-section .menu ul {
+  display: flex;
+  gap: 60px;
+}
+.nav-section .menu ul li {
+  list-style: none;
+}
+.nav-section .menu ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+/* --------------- */
+
+.header-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.banner-title {
+  color: #131313;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.banner-paragraph {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 44px;
+  padding: 10px 516px;
+}
+.banner-btn, .list-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 21px 25px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;    
+  color: #fff;
+  margin-bottom: 50px;
+}
+.banner-image {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+/* List feature container */
+
+.list-features{
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    width: 1300px;
+    margin: auto;
+}
+.images-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+}
+/* list text */
+.list-titles span{
+    line-height: 53px;
+    margin-right: 9px;
+    
+}
+
+.first-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.second-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.third-title{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+.quick-list .list-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+}
+.list-btn{
+    margin-top: 32px;
+}
